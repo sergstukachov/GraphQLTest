@@ -1,0 +1,21 @@
+{
+    "name": "skillup/module-graphqltest",
+    "description": "specifically for GraphQL testing",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Serg Stukachov",
+            "email": "sergstukachov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SkillUp\\GraphQLTest\\": ""
+        }
+    }
+}
